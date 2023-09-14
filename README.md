@@ -12,7 +12,7 @@ BOM would only expose following function
 
 ```tsx
 interface BootstrapFn {
-    (rawHtml: string, rootElementNode: Element);
+    (rawHtml: string, rootElementNode: Element): void;
 }
 ```
 
